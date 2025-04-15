@@ -7,9 +7,9 @@ class DBConnUtil:
         try:
             # Hardcoded connection string
             connection_string = (
-                "DRIVER={ODBC Driver 17 for SQL Server};"
-                "SERVER=LAPTOP-A3LRA9TF;"  
-                "DATABASE=ProjectManage;"        
+                "DRIVER={your driver name};"
+                "SERVER=your server name;"  
+                "DATABASE=your db name;"        
                 "Trusted_Connection=yes;"
             )
 
