@@ -13,7 +13,7 @@ class DBConnUtil:
                 "Trusted_Connection=yes;"
             )
 
-            # Connect to the database using the connection string
+           
             conn = pyodbc.connect(connection_string)
             return conn
         except Exception as e:
@@ -22,7 +22,7 @@ class DBConnUtil:
 
     @staticmethod
     def test_connection():
-        # Test the connection and print result
+       
         conn = DBConnUtil.get_connection()
         if conn:
             print("Database connection successful!")
