@@ -3,9 +3,9 @@ import pyodbc
 def test_db_connection():
     try:
         # Database connection details
-        driver = '{ODBC Driver 17 for SQL Server}'
-        server = 'LAPTOP-A3LRA9TF'
-        database = 'ProjectManage'
+        driver = '{your driver name}'
+        server = 'your server name'
+        database = 'your db name'
         trusted_connection = 'yes'
 
         # Create connection string
